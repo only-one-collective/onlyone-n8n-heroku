@@ -35,6 +35,9 @@
         "size": "standard-1x"
       }
     },
+    "buildpacks": [
+      { "url": "heroku/nodejs"}
+    ],
     "addons": [
       {
         "plan": "heroku-postgresql",
